@@ -31,23 +31,15 @@ public class Main {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con = DriverManager.getConnection(url, userName, password);
         java.sql.PreparedStatement st = con.prepareStatement(querry);
+        int count = 0;
 
-/*
-        for (Person person:personList) {
-            st.setString(1,person.getName());
-            st.setString(2,person.getSurname());
-            querry = "Insert into persons (first_name, last_name) values (?,?);";
+        for (Person person : personList) {
+            st.setString(1, person.getName());
+            st.setString(2, person.getSurname());
+            st.executeUpdate();
+            count++;
         }
-*/
-        st.setString(1, personList.get(0).getName());
-        st.setString(2, personList.get(0).getSurname());
 
-        st = con.prepareStatement(querry);
-
-        st.setString(1, personList.get(1).getName());
-        st.setString(2, personList.get(1).getSurname());
-
-        int count = st.executeUpdate();
         System.out.println(count + " row/s affected");
         st.close();
         con.close();
