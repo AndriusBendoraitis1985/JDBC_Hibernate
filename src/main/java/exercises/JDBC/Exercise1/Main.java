@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
 
         List<Person> personList = getPersonsList();
 
@@ -23,25 +23,29 @@ public class Main {
         return personList;
     }
 
-    private static void uploadToDataBase(List<Person> personList) throws Exception {
+    private static void uploadToDataBase(List<Person> personList) {
         String url = "jdbc:mysql://localhost:3306/testDB";
         String userName = "root";
         String password = "root";
         String querry = "Insert into persons (first_name, last_name) values (?,?);";
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection con = DriverManager.getConnection(url, userName, password);
-        java.sql.PreparedStatement st = con.prepareStatement(querry);
         int count = 0;
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            Connection con = DriverManager.getConnection(url, userName, password);
+            java.sql.PreparedStatement st = con.prepareStatement(querry);
 
-        for (Person person : personList) {
-            st.setString(1, person.getName());
-            st.setString(2, person.getSurname());
-            st.executeUpdate();
-            count++;
+            for (Person person : personList) {
+                st.setString(1, person.getName());
+                st.setString(2, person.getSurname());
+                st.executeUpdate();
+                count++;
+            }
+
+            System.out.println(count + " row/s affected");
+            st.close();
+            con.close();
+        } catch (Exception e){
+            System.out.println("Problem while writing in DB");
         }
-
-        System.out.println(count + " row/s affected");
-        st.close();
-        con.close();
     }
 }

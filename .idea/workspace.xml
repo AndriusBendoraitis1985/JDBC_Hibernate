@@ -157,12 +157,19 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1587824017325</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="wokrs data upload from list">
+      <created>1587824798366</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1587824798366</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="do not work upload list of data. Uploading only last one" />
-    <option name="LAST_COMMIT_MESSAGE" value="do not work upload list of data. Uploading only last one" />
+    <MESSAGE value="wokrs data upload from list" />
+    <option name="LAST_COMMIT_MESSAGE" value="wokrs data upload from list" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587288537698">
@@ -186,10 +193,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587304677671" />
-    <state x="-1015" y="14" key="CommitChangelistDialog2" timestamp="1587824015504">
-      <screen x="-1280" y="-72" width="1280" height="984" />
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1587824797165">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1015" y="14" key="CommitChangelistDialog2/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587824015504" />
+    <state x="283" y="0" key="CommitChangelistDialog2/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587824797165" />
     <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1587824731866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -238,6 +246,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587289591993" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587824805283">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587824805283" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587816542688">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
