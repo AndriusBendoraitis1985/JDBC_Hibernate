@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76f05c81-681d-44ca-b353-11c5e4054b2d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1akmJ3Ir6ynJr7fouudRIOa7bHd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="programs.JDBC" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JdbcDao">
+    <configuration name="FetchDataAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programs.JDBC.executeQueries.Fundamentals.FetchDataAll" />
+      <module name="Individual learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programs.JDBC.executeQueries.Fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Individual lesson" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="programs.JDBC.executeQueries.Fundamentals.FetchDataOne" />
+      <module name="Individual learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programs.JDBC.executeQueries.Fundamentals.InsertData" />
+      <module name="Individual learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programs.JDBC.executeQueries.Fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programs.JDBC.Dao.JdbcDao" />
+      <module name="Individual learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programs.JDBC.Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreparedStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programs.JDBC.executeQueries.Fundamentals.PreparedStatement" />
+      <module name="Individual learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programs.JDBC.executeQueries.Fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Individual lesson" />
+      <item itemvalue="Application.FetchDataAll" />
+      <item itemvalue="Application.InsertData" />
+      <item itemvalue="Application.PreparedStatement" />
+      <item itemvalue="Application.JdbcDao" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JdbcDao" />
+        <item itemvalue="Application.PreparedStatement" />
+        <item itemvalue="Application.InsertData" />
+        <item itemvalue="Application.FetchDataAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76f05c81-681d-44ca-b353-11c5e4054b2d" name="Default Changelist" comment="" />
+      <created>1587287890736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587287890736</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587288537698">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587288537698" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1587289952110">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587289952110" />
+    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587288504456">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587288504456" />
+    <state x="406" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1587288933881">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="406" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587288933881" />
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587304677671">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587304677671" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1587306993322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993322" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1587306993322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.center/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993322" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1587306993322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.left/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993322" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1587306993322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.right/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993322" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1587306993323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993323" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1587306993323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993323" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1587306993322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993322" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1587306993323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993323" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1587290002184">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587290002184" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1587289591993">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587289591993" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587816542688">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587816542688" />
+  </component>
+</project>
