@@ -1,4 +1,4 @@
-package programs.JDBC.executeQueries.Fundamentals;
+package fundamentals.JDBC.queries;
 
 import java.sql.*;
 

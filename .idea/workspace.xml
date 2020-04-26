@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f05c81-681d-44ca-b353-11c5e4054b2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/JDBC/queries/UpdateData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/JDBC/queries/propertiesFile/CreatePropFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/JDBC/queries/propertiesFile/LoadPropFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/JDBC/Exercise1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/JDBC/Exercise1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Individual learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Individual learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programs/JDBC/Dao/JdbcDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/JDBC/designPaterns/Dao/JdbcDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programs/JDBC/Dao/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/JDBC/designPaterns/Dao/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programs/JDBC/Dao/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/JDBC/designPaterns/Dao/PersonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programs/JDBC/executeQueries/Fundamentals/FetchDataAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/JDBC/queries/FetchDataAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programs/JDBC/executeQueries/Fundamentals/FetchDataOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/JDBC/queries/FetchDataOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programs/JDBC/executeQueries/Fundamentals/InsertData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/JDBC/queries/InsertData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programs/JDBC/executeQueries/Fundamentals/PreparedStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/JDBC/queries/PreparedStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/programs/JDBC/Dao/JdbcDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/programs/JDBC/Dao/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/programs/JDBC/Dao/PersonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/programs/JDBC/executeQueries/Fundamentals/FetchDataAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/programs/JDBC/executeQueries/Fundamentals/FetchDataOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/programs/JDBC/executeQueries/Fundamentals/InsertData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/programs/JDBC/executeQueries/Fundamentals/PreparedStatement.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +61,27 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fundamentals.JDBC.executeQueries" />
+      <recent name="fundamentals" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="programs.JDBC" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="FetchDataAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programs.JDBC.executeQueries.Fundamentals.FetchDataAll" />
+  <component name="RunManager" selected="Application.UpdateData">
+    <configuration name="CreatePropFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.JDBC.queries.propertiesFile.CreatePropFile" />
       <module name="Individual learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programs.JDBC.executeQueries.Fundamentals.*" />
+          <option name="PATTERN" value="fundamentals.JDBC.queries.propertiesFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,18 +90,18 @@
       </method>
     </configuration>
     <configuration name="Individual lesson" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="programs.JDBC.executeQueries.Fundamentals.FetchDataOne" />
+      <option name="MAIN_CLASS_NAME" value="fundamentals.JDBC.queries.FetchDataOne" />
       <module name="Individual learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="InsertData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programs.JDBC.executeQueries.Fundamentals.InsertData" />
+      <option name="MAIN_CLASS_NAME" value="fundamentals.JDBC.queries.InsertData" />
       <module name="Individual learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programs.JDBC.executeQueries.Fundamentals.*" />
+          <option name="PATTERN" value="fundamentals.JDBC.queries.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programs.JDBC.Dao.JdbcDao" />
+    <configuration name="LoadPropFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.JDBC.queries.propertiesFile.LoadPropFile" />
       <module name="Individual learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programs.JDBC.Dao.*" />
+          <option name="PATTERN" value="fundamentals.JDBC.queries.propertiesFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreparedStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programs.JDBC.executeQueries.Fundamentals.PreparedStatement" />
+    <configuration name="UpdateData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.JDBC.queries.UpdateData" />
       <module name="Individual learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programs.JDBC.executeQueries.Fundamentals.*" />
+          <option name="PATTERN" value="fundamentals.JDBC.queries.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,19 +150,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Individual lesson" />
-      <item itemvalue="Application.FetchDataAll" />
-      <item itemvalue="Application.InsertData" />
-      <item itemvalue="Application.PreparedStatement" />
-      <item itemvalue="Application.JdbcDao" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.CreatePropFile" />
+      <item itemvalue="Application.LoadPropFile" />
+      <item itemvalue="Application.InsertData" />
+      <item itemvalue="Application.UpdateData" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.JdbcDao" />
-        <item itemvalue="Application.PreparedStatement" />
+        <item itemvalue="Application.UpdateData" />
         <item itemvalue="Application.InsertData" />
-        <item itemvalue="Application.FetchDataAll" />
+        <item itemvalue="Application.LoadPropFile" />
+        <item itemvalue="Application.CreatePropFile" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +205,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="wokrs data upload from list. better exception control" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1587918627743">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Project_Structure/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587918627743" />
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587288537698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -196,35 +226,47 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="406" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587288933881" />
+    <state x="333" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587918200350">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="333" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587918200350" />
+    <state x="479" y="223" width="516" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587918155788">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="223" width="516" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587918155788" />
+    <state x="479" y="244" width="441" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587918105333">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="244" width="441" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587918105333" />
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587304677671">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587304677671" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1587825035842">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1587920825111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1015" y="14" key="CommitChangelistDialog2/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587824015504" />
-    <state x="283" y="0" key="CommitChangelistDialog2/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587825035842" />
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1587826309543">
+    <state x="283" y="0" key="CommitChangelistDialog2/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587920825111" />
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1587920825137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1237" height="263" key="GridCell.Tab.0.bottom/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587823915328" />
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587826309543" />
-    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1587826309542">
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587920825137" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1587920825137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1237" height="263" key="GridCell.Tab.0.center/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587823915328" />
-    <state width="1323" height="176" key="GridCell.Tab.0.center/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587826309542" />
-    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1587826309542">
+    <state width="1323" height="176" key="GridCell.Tab.0.center/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587920825137" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1587920825137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1237" height="263" key="GridCell.Tab.0.left/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587823915328" />
-    <state width="1323" height="176" key="GridCell.Tab.0.left/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587826309542" />
-    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1587826309543">
+    <state width="1323" height="176" key="GridCell.Tab.0.left/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587920825137" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1587920825137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1237" height="263" key="GridCell.Tab.0.right/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587823915328" />
-    <state width="1323" height="176" key="GridCell.Tab.0.right/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587826309543" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587920825137" />
     <state width="1237" height="325" key="GridCell.Tab.1.bottom" timestamp="1587823111505">
       <screen x="-1280" y="-72" width="1280" height="984" />
     </state>
@@ -249,14 +291,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="19" key="Maven.ArtifactSearchDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587290002184" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1587289591993">
+    <state x="348" y="75" key="RollbackChangesDialog" timestamp="1587920700431">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587289591993" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587824805283">
+    <state x="348" y="75" key="RollbackChangesDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587920700431" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1587918892740">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587824805283" />
+    <state x="184" y="0" key="SettingsEditor/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587918892740" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587916383916">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587916383916" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587816542688">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -265,6 +311,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="192" y="0" width="989" height="815" key="dock-window-1/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587824293457" />
+    <state x="352" y="155" key="git4idea.merge.GitPullDialog" timestamp="1587916930030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="352" y="155" key="git4idea.merge.GitPullDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587916930030" />
+    <state x="312" y="212" key="git4idea.ui.GitUnstashDialog" timestamp="1587916877974">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="312" y="212" key="git4idea.ui.GitUnstashDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587916877974" />
     <state x="-977" y="139" width="672" height="678" key="search.everywhere.popup" timestamp="1587821711020">
       <screen x="-1280" y="-72" width="1280" height="984" />
     </state>

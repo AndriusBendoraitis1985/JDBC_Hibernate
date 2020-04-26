@@ -1,4 +1,4 @@
-package programs.JDBC.executeQueries.Fundamentals;
+package fundamentals.JDBC.queries;
 
 import java.sql.*;
 
@@ -16,7 +16,7 @@ public class FetchDataAll {
         Statement st = con.createStatement();
         ResultSet rs = st.executeQuery(queryAll);
 
-        String personData = "";
+        String personData;
         while (rs.next()) {
             personData = rs.getInt(1) + " : " + rs.getString(2) + " " + rs.getString(3);
             System.out.println(personData);

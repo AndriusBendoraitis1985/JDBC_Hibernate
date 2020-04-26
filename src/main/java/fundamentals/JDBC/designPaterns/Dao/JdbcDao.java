@@ -1,4 +1,4 @@
-package programs.JDBC.Dao;
+package fundamentals.JDBC.designPaterns.Dao;
 
 public class JdbcDao {
 
