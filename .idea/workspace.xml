@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76f05c81-681d-44ca-b353-11c5e4054b2d" name="Default Changelist" comment="" />
+    <list default="true" id="76f05c81-681d-44ca-b353-11c5e4054b2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/JDBC/Exercise1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/JDBC/Exercise1/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +34,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1akmJ3Ir6ynJr7fouudRIOa7bHd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,7 +49,7 @@
       <recent name="programs.JDBC" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JdbcDao">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FetchDataAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programs.JDBC.executeQueries.Fundamentals.FetchDataAll" />
       <module name="Individual learning" />
@@ -84,6 +96,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.JDBC.Exercise1.Main" />
+      <module name="Individual learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.JDBC.Exercise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PreparedStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programs.JDBC.executeQueries.Fundamentals.PreparedStatement" />
       <module name="Individual learning" />
@@ -103,9 +128,11 @@
       <item itemvalue="Application.InsertData" />
       <item itemvalue="Application.PreparedStatement" />
       <item itemvalue="Application.JdbcDao" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.JdbcDao" />
         <item itemvalue="Application.PreparedStatement" />
         <item itemvalue="Application.InsertData" />
@@ -124,16 +151,42 @@
       <option name="presentableId" value="Default" />
       <updated>1587287890736</updated>
     </task>
+    <task id="LOCAL−00001" summary="do not work upload list of data. Uploading only last one">
+      <created>1587824017325</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1587824017325</updated>
+    </task>
+    <task id="LOCAL−00002" summary="wokrs data upload from list">
+      <created>1587824798366</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1587824798366</updated>
+    </task>
+    <task id="LOCAL−00003" summary="wokrs data upload from list. better exception control">
+      <created>1587825037018</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1587825037018</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="do not work upload list of data. Uploading only last one" />
+    <MESSAGE value="wokrs data upload from list" />
+    <MESSAGE value="wokrs data upload from list. better exception control" />
+    <option name="LAST_COMMIT_MESSAGE" value="wokrs data upload from list. better exception control" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587288537698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587288537698" />
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1587289952110">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-823" y="36" key="#com.intellij.ide.util.MemberChooser" timestamp="1587820186514">
+      <screen x="-1280" y="-72" width="1280" height="984" />
     </state>
+    <state x="-823" y="36" key="#com.intellij.ide.util.MemberChooser/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587820186514" />
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587289952110" />
     <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587288504456">
       <screen x="0" y="0" width="1366" height="728" />
@@ -147,37 +200,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587304677671" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1587306993322">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1587825035842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993322" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1587306993322">
+    <state x="-1015" y="14" key="CommitChangelistDialog2/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587824015504" />
+    <state x="283" y="0" key="CommitChangelistDialog2/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587825035842" />
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1587826309543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993322" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1587306993322">
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587823915328" />
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587826309543" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1587826309542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993322" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1587306993322">
+    <state width="1237" height="263" key="GridCell.Tab.0.center/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587823915328" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587826309542" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1587826309542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993322" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1587306993323">
+    <state width="1237" height="263" key="GridCell.Tab.0.left/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587823915328" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587826309542" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1587826309543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.right/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587823915328" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587826309543" />
+    <state width="1237" height="325" key="GridCell.Tab.1.bottom" timestamp="1587823111505">
+      <screen x="-1280" y="-72" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.bottom/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587823111505" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993323" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1587306993323">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="325" key="GridCell.Tab.1.center" timestamp="1587823111505">
+      <screen x="-1280" y="-72" width="1280" height="984" />
     </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.center/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587823111505" />
     <state width="1323" height="223" key="GridCell.Tab.1.center/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993323" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1587306993322">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="325" key="GridCell.Tab.1.left" timestamp="1587823111505">
+      <screen x="-1280" y="-72" width="1280" height="984" />
     </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.left/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587823111505" />
     <state width="1323" height="223" key="GridCell.Tab.1.left/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993322" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1587306993323">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="325" key="GridCell.Tab.1.right" timestamp="1587823111505">
+      <screen x="-1280" y="-72" width="1280" height="984" />
     </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.right/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587823111505" />
     <state width="1323" height="223" key="GridCell.Tab.1.right/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587306993323" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1587290002184">
       <screen x="0" y="0" width="1366" height="728" />
@@ -187,9 +253,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587289591993" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587824805283">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587824805283" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587816542688">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/-1280.-72.1280.984/0.0.1366.728@0.0.1366.728" timestamp="1587816542688" />
+    <state x="192" y="0" width="989" height="815" key="dock-window-1" timestamp="1587824293457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="192" y="0" width="989" height="815" key="dock-window-1/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587824293457" />
+    <state x="-977" y="139" width="672" height="678" key="search.everywhere.popup" timestamp="1587821711020">
+      <screen x="-1280" y="-72" width="1280" height="984" />
+    </state>
+    <state x="-977" y="139" width="672" height="678" key="search.everywhere.popup/-1280.-72.1280.984/0.0.1366.728@-1280.-72.1280.984" timestamp="1587821711020" />
   </component>
 </project>
