@@ -2,16 +2,23 @@ package exercises.JDBC.Exercise1;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+    static String url = "jdbc:mysql://localhost:3306/testDB";
+    static String userName = "root";
+    static String password = "root";
+
 
     public static void main(String[] args){
 
         List<Person> personList = getPersonsList();
 
-        uploadToDataBase(personList);
+      //  uploadToDataBase(personList);
+
+        deleteData();
     }
 
     private static List<Person> getPersonsList() {
@@ -24,9 +31,6 @@ public class Main {
     }
 
     private static void uploadToDataBase(List<Person> personList) {
-        String url = "jdbc:mysql://localhost:3306/testDB";
-        String userName = "root";
-        String password = "root";
         String querry = "Insert into persons (first_name, last_name) values (?,?);";
         int count = 0;
         try {
@@ -47,5 +51,24 @@ public class Main {
         } catch (Exception e){
             System.out.println("Problem while writing in DB");
         }
+    }
+
+    private static void deleteData (){
+        String queryDelete = "delete persons from persons where last_name like 'Bendoraitis';";
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            Connection con = DriverManager.getConnection(url, userName, password);
+            Statement st = con.createStatement();
+            int count = st.executeUpdate(queryDelete);
+
+            System.out.printf("Deleted %s entries", count);
+
+            st.close();
+            con.close();
+
+        } catch (Exception e){
+            System.out.println("Error while deleting data from DB");
+        }
+
     }
 }
